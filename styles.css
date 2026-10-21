@@ -1,5 +1,5 @@
 html{
-    background-color: green;
+    background-color: seagreen;
 }
 
 body{
@@ -7,26 +7,59 @@ body{
     margin-left: 0;
 }
 
+.site-header{
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.sidebar{
+    background-color: khaki;
+    flex: 0 0 200px;
+    padding: 10px;
+}
+
+.site-main{
+    background-color: brown;
+    padding: 10px;
+}
+
+.site-footer{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
 .site-links{
     list-style: none;
-    padding: 10px;
-    display:flex;
-    background-color: white;
-    
+    display: flex;
+    gap:15px;
+    padding:0px;
+    justify-content:space-evenly;
 }
 
 .site-link{
-    margin:0 10px;
-    background-color:gold;
-    padding: 10px;
     text-decoration: none;
-    color: white;
-    display:inline-block;
-    border-radius: 10px;
 }
 
 .site-link:hover{
-    background-color: purple;
-    color:black;    
+    text-decoration: underline;
+}
+
+.wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+.two-box{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
 
